@@ -19,6 +19,7 @@ A modern and interactive **Rock Paper Scissors** game built with **HTML, CSS, an
 * 🎥 Video-based visual effects for enhanced experience
 * 🎨 Responsive UI with smooth color transitions
 * 🔄 Reset & New Game functionality
+* 📱 Fully responsive mobile design
 
 ---
 
@@ -83,17 +84,19 @@ rock-paper-scissors/
 │── index.html
 │── style.css
 │── script.js
-│── assets/
-│   ├── win.mp3
-│   ├── loose.mp3
-│   └── bgVideo.mp4
+│── loose.mp3
+│── loosesound.wav
+│── win.mp3
+│── winVideo.mp4
+│── paper.png
+│── scissors.png
+│── rock.png
 ```
 
 ---
 
 ## 🎯 Future Enhancements
 
-* 📱 Fully responsive mobile design
 * 🎮 Difficulty levels (Easy / Medium / Hard)
 * 🌐 Multiplayer mode
 * 🎵 More advanced sound effects
