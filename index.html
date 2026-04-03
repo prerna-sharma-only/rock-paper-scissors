@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScisors</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <h1><i><u>Rock  Paper  Scissors</u></i></h1>
+    <div class="container">
+        <video class="hide" id="bgVideo" autoplay muted>
+        <source src="./winVideo.mp4" type="video/mp4">
+        </video>
+        <div class = "box">
+                <button class ="common" id ="rock-btn"></button>
+                <button class ="common" id ="paper-btn"></button>
+                <button class ="common" id ="scissors-btn"></button>
+
+            <div class="score-board">
+
+                <div class="score">
+                    <p id="user-score">0</p>
+                    <p>You</p>
+                </div>
+
+                <div class="score">
+                    <p id="comp-score">0</p>
+                    <p>Computer</p>
+                </div>
+
+            </div>
+
+            <div class="msg-container">
+                <p id="msg">Play Your Move!</p>
+            </div>
+            <div>
+                <button id="reset-btn" class="reset">Reset Game</button>
+                <button id="new-btn"class="reset">New Game</button>
+            </div>
+        </div>
+
+    </div>
+        <!-- <div class="choice" id="rock">
+            <img src="./images/rock.png">
+        </div>
+        <div class="choice" id="paper">
+            <img src="./images/paper.png">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="./images/scissors.png">
+        </div> -->
+    
+    <!-- <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg">Play Your Move!</p>
+    </div> -->
+    <script src="./script.js"></script>
+</body>
+</html>
